@@ -1,2 +1,2 @@
-<h1>Демонстрация приложения<h1>
-<video src='demo.mp4'></video>
+<h2>Демонстрация приложения<h2>
+<video src='demo.mp4' controls></video>
