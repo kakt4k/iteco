@@ -18,8 +18,10 @@ class NotesProvider extends ChangeNotifier {
   }
 
   void updateNote(int id, String newText) {
+    print(id);
     for (int i = 0; i < _notes.length; ++i) {
       if (_notes[i]['id'] == id) {
+        print('UPDATE');
         _notes[i]['text'] = newText;
         break;
       }

@@ -168,7 +168,7 @@ class _HomeState extends State<Home> {
                                 _controller.text,
                               );
                               notesProvider.updateNote(
-                                _editI!,
+                                notes[_editI!]['id'],
                                 _controller.text,
                               );
                               setState(() {
